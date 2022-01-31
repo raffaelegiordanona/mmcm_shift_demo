@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_mmcm_shift_demo_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_mmcm_shift_demo" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="124800000001fs"></ZoomEndTime>
+      <Cursor1Time time="18540000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="202"></NameColumnWidth>
+      <ValueColumnWidth column_width="89"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wave_markers>
+      <marker time="18402268000" label="" />
+      <marker time="72300000000" label="" />
+      <marker time="72300000000" label="" />
+      <marker time="18540000000" label="" />
+      <marker time="90730000000" label="" />
+      <marker time="90720000000" label="" />
+      <marker time="113640220000" label="" />
+      <marker time="126200000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_mmcm_shift_demo/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/set" type="logic">
+      <obj_property name="ElementShortName">set</obj_property>
+      <obj_property name="ObjectShortName">set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/phase" type="array">
+      <obj_property name="ElementShortName">phase[9:0]</obj_property>
+      <obj_property name="ObjectShortName">phase[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/psclk" type="logic">
+      <obj_property name="ElementShortName">psclk</obj_property>
+      <obj_property name="ObjectShortName">psclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/clk_shifted" type="logic">
+      <obj_property name="ElementShortName">clk_shifted</obj_property>
+      <obj_property name="ObjectShortName">clk_shifted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/period" type="other">
+      <obj_property name="ElementShortName">period</obj_property>
+      <obj_property name="ObjectShortName">period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/psdone" type="logic">
+      <obj_property name="ElementShortName">psdone</obj_property>
+      <obj_property name="ObjectShortName">psdone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/reset_in" type="logic">
+      <obj_property name="ElementShortName">reset_in</obj_property>
+      <obj_property name="ObjectShortName">reset_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/set" type="logic">
+      <obj_property name="ElementShortName">set</obj_property>
+      <obj_property name="ObjectShortName">set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/phase" type="array">
+      <obj_property name="ElementShortName">phase[9:0]</obj_property>
+      <obj_property name="ObjectShortName">phase[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/reset_out" type="logic">
+      <obj_property name="ElementShortName">reset_out</obj_property>
+      <obj_property name="ObjectShortName">reset_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/psen" type="logic">
+      <obj_property name="ElementShortName">psen</obj_property>
+      <obj_property name="ObjectShortName">psen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/psincdec" type="logic">
+      <obj_property name="ElementShortName">psincdec</obj_property>
+      <obj_property name="ObjectShortName">psincdec</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/psen_i" type="logic">
+      <obj_property name="ElementShortName">psen_i</obj_property>
+      <obj_property name="ObjectShortName">psen_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/psincdec_i" type="logic">
+      <obj_property name="ElementShortName">psincdec_i</obj_property>
+      <obj_property name="ObjectShortName">psincdec_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/reset_out_i" type="logic">
+      <obj_property name="ElementShortName">reset_out_i</obj_property>
+      <obj_property name="ObjectShortName">reset_out_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/done_i" type="logic">
+      <obj_property name="ElementShortName">done_i</obj_property>
+      <obj_property name="ObjectShortName">done_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/uut/mmcm_shift_fsm/count" type="array">
+      <obj_property name="ElementShortName">count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mmcm_shift_demo/time_diff" type="other">
+      <obj_property name="ElementShortName">time_diff</obj_property>
+      <obj_property name="ObjectShortName">time_diff</obj_property>
+   </wvobject>
+</wave_config>
